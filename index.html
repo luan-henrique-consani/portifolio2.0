@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>L_CONSANI.DEV // WEB DEVELOPER</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="LHC_BASH.png">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <a href="#intro" class="logo" id="header-logo">L_CONSANI.DEV</a>
+        <nav>
+            <a href="#intro" class="nav-link active">INÍCIO</a>
+            <a href="#tech" class="nav-link">TECH</a>
+            <a href="#projects-wrap" class="nav-link">PROJETOS</a>
+            <a href="#terminal" class="nav-link">EXPERIÊNCIA</a>
+            <a href="#recall" class="nav-link">CONTATO</a>
+        </nav>
+    </header>
+
+    <!-- MOBILE NAV -->
+    <nav class="mobile-nav">
+        <a href="#intro" class="active">
+            <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+                <path d="M3 9.5L12 3l9 6.5V20a1 1 0 01-1 1H4a1 1 0 01-1-1V9.5z" stroke-linecap="round"
+                    stroke-linejoin="round" />
+            </svg>
+            INÍCIO
+        </a>
+        <a href="#tech">
+            <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="3" />
+                <path
+                    d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"
+                    stroke-linecap="round" />
+            </svg>
+            TECH
+        </a>
+        <a href="#projects-wrap">
+            <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+                <rect x="2" y="3" width="20" height="14" rx="1" />
+                <path d="M8 21h8M12 17v4" stroke-linecap="round" />
+            </svg>
+            PROJETOS
+        </a>
+        <a href="#terminal">
+            <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+                <polyline points="4 17 10 11 4 5" stroke-linecap="round" stroke-linejoin="round" />
+                <line x1="12" y1="19" x2="20" y2="19" stroke-linecap="round" />
+            </svg>
+            EXP
+        </a>
+    </nav>
+
+    <main>
+
+        <!-- ===================== SECTION 1: INTRO ===================== -->
+        <section id="intro">
+            <div class="curtain-container" id="curtains">
+                <div class="curtain-left"></div>
+                <div class="curtain-right"></div>
+            </div>
+
+            <div class="red-line-h" style="bottom: 30%; opacity: 0.15;"></div>
+            <div class="red-line-h" style="top: 30%; opacity: 0.1; width: 40%; left: 30%;"></div>
+
+            <div class="intro-content" id="intro-content">
+                <span class="intro-label">// OPERADOR_ID: CONSANI</span>
+                <h1 class="intro-name">
+                    <span id="name-first">LUAN</span><br />
+                    <span id="name-last" class="highlight">CONSANI</span>
+                </h1>
+                <p class="intro-title" id="intro-title-text">// WEB DEVELOPER</p>
+            </div>
+            <div class="intro-scroll">SCROLL PARA CONTINUAR ↓</div>
+        </section>
+
+        <!-- ===================== SECTION 2: TECH TREE ===================== -->
+        <section id="tech">
+            <div class="tech-section-label">// SISTEMA_DE_TECNOLOGIAS</div>
+
+            <div class="tech-container" id="tech-container">
+
+                <!-- SVG Lines drawn by JS -->
+                <svg id="tree-svg" viewBox="" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"></svg>
+
+                <!-- LEFT: Backend -->
+                <div class="tech-branch tech-branch-left" id="branch-left">
+                    <div class="tech-node" data-side="left">Node.js</div>
+                    <div class="tech-node" data-side="left">NestJS</div>
+                    <div class="tech-node" data-side="left">Next.js</div>
+                    <div class="tech-node" data-side="left">Prisma</div>
+                </div>
+
+                <!-- CENTER: JavaScript -->
+                <div class="tech-center" id="tech-center">
+                    <div class="js-icon">
+                        <span>JS</span>
+                    </div>
+                    <span class="js-label">NÚCLEO</span>
+                </div>
+
+                <!-- RIGHT: Frontend -->
+                <div class="tech-branch tech-branch-right" id="branch-right">
+                    <div class="tech-node" data-side="right">React</div>
+                    <div class="tech-node" data-side="right">Angular</div>
+                    <div class="tech-node" data-side="right">Tailwind CSS</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== SECTION 3: PROJECTS ===================== -->
+        <div id="projects-wrap">
+
+            <!-- Project 1 -->
+            <div class="project-slide" id="proj-1">
+                <div class="project-curtain-overlay">
+                    <div class="p-curtain-l"></div>
+                    <div class="p-curtain-r"></div>
+                </div>
+                <div class="project-info">
+                    <p class="project-num">CENA_01 // PROJETO</p>
+                    <h2 class="project-title">PortfólioSync</h2>
+                    <p class="project-desc">Plataforma de portfólio dinâmica com integração de API em tempo real.
+                        Construída com Next.js e NestJS, oferecendo performance máxima e escalabilidade total.</p>
+                    <div class="project-tags">
+                        <span class="tag">[ HAND-CODED ]</span>
+                    </div>
+                    <a class="project-cta" href="https://github.com/luan-henrique-consani" target="_blank">
+                        EXPLORAR →
+                    </a>
+                </div>
+                <div class="project-visual">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=80"
+                        alt="Código de programação" loading="lazy" />
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-slide alt" id="proj-2">
+                <div class="project-curtain-overlay">
+                    <div class="p-curtain-l"></div>
+                    <div class="p-curtain-r"></div>
+                </div>
+                <div class="project-info">
+                    <p class="project-num">CENA_02 // PROJETO</p>
+                    <h2 class="project-title">NexusBoard</h2>
+                    <p class="project-desc">Dashboard administrativo responsivo com painéis de dados interativos. React
+                        + TypeScript com estado global centralizado e design system proprietário.</p>
+                    <div class="project-tags">
+                        <span class="tag">[ HAND-CODED ]</span>
+                        <span class="tag">[ CLIENTE ]</span>
+                    </div>
+                    <a class="project-cta" href="https://github.com/luan-henrique-consani" target="_blank">
+                        EXPLORAR →
+                    </a>
+                </div>
+                <div class="project-visual">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80"
+                        alt="Dashboard analítico" loading="lazy" />
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-slide" id="proj-3">
+                <div class="project-curtain-overlay">
+                    <div class="p-curtain-l"></div>
+                    <div class="p-curtain-r"></div>
+                </div>
+                <div class="project-info">
+                    <p class="project-num">CENA_03 // PROJETO</p>
+                    <h2 class="project-title">APIForge</h2>
+                    <p class="project-desc">API REST robusta para gestão de dados com autenticação JWT, documentação
+                        Swagger automática e deploy contínuo. NestJS + Prisma + PostgreSQL.</p>
+                    <div class="project-tags">
+                        <span class="tag">[ HAND-CODED ]</span>
+                    </div>
+                    <a class="project-cta" href="https://github.com/luan-henrique-consani" target="_blank">
+                        EXPLORAR →
+                    </a>
+                </div>
+                <div class="project-visual">
+                    <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80"
+                        alt="Infraestrutura de servidor" loading="lazy" />
+                </div>
+            </div>
+
+        </div><!-- end projects-wrap -->
+
+        <!-- ===================== SECTION 4: TERMINAL ===================== -->
+        <section id="terminal">
+            <div class="terminal-wrapper">
+                <span class="terminal-header-label">// REGISTRO_DE_OPERAÇÕES</span>
+
+                <div class="terminal-box">
+                    <div class="terminal-topbar">
+                        <span class="dot dot-r"></span>
+                        <span class="dot dot-y"></span>
+                        <span class="dot dot-g"></span>
+                        <span class="terminal-path">luan@consani.dev:~</span>
+                    </div>
+                    <div class="terminal-body" id="terminal-body">
+
+                        <div class="t-line" id="tl-0">
+                            <span class="t-prompt"></span>fetch experiencia --all
+                        </div>
+
+                        <div class="t-line" id="tl-1">
+                            <div class="t-output">
+                                &gt;&gt; <span class="year">[2024-2025]</span> Assistente de TI <span
+                                    class="accent">@Tech_Merchandising</span>
+                            </div>
+                        </div>
+                        <div class="t-line" id="tl-2">
+                            <div class="t-output dim">
+                                &nbsp;&nbsp;&nbsp;↳ Suporte técnico, manutenção de hardware e infraestrutura de rede
+                            </div>
+                        </div>
+
+                        <div class="t-line" id="tl-3">
+                            <div class="t-output">
+                                &gt;&gt; <span class="year">[2025-2025]</span> Freelancer <span
+                                    class="accent">@Projetos_Independentes</span>
+                            </div>
+                        </div>
+
+                        <div class="t-line" id="tl-4">
+                            <div class="t-output">
+                                &gt;&gt; <span class="year">[2026-PRESENTE]</span> Estágio em Desenvolvimento Web <span
+                                    class="accent">@Escola_Coruja</span>
+                            </div>
+                        </div>
+                        <div class="t-line" id="tl-5">
+                            <div class="t-output dim">
+                                &nbsp;&nbsp;&nbsp;↳ Desenvolvimento de interfaces e sistemas web
+                            </div>
+                        </div>
+
+                        <br />
+
+                        <div class="t-line" id="tl-6">
+                            <span class="t-prompt"></span>fetch educacao --status
+                        </div>
+
+                        <div class="t-line" id="tl-7">
+                            <div class="t-output">
+                                &gt;&gt; <span class="year">[CURSANDO]</span> Engenharia de Software <span
+                                    class="accent">@UniSenai_Londrina</span>
+                            </div>
+                        </div>
+                        <div class="t-line" id="tl-8">
+                            <div class="t-output">
+                                &gt;&gt; <span class="year">[CERTIFICADO]</span> JavaScript Completo <span
+                                    class="accent">@DIO</span>
+                            </div>
+                        </div>
+                        <div class="t-line" id="tl-9">
+                            <div class="t-output">
+                                &gt;&gt; <span class="year">[CONCLUÍDO]</span> Curso Técnico em Informática <span
+                                    class="accent">@Senai</span>
+                            </div>
+                        </div>
+
+                        <br />
+
+                        <div class="t-line" id="tl-10">
+                            <span class="t-prompt"></span><span class="t-cursor"></span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== SECTION 5: RECALL / CTA ===================== -->
+        <section id="recall">
+            <div class="recall-bg-text">CONTATO</div>
+
+            <div class="recall-inner">
+                <span class="recall-label">// CHAMADO_FINAL</span>
+                <h2 class="recall-headline">
+                    Pronto para<br />
+                    <span class="line-red">construir algo</span>
+                    extraordinário?
+                </h2>
+
+                <div class="recall-actions">
+                    <a class="btn-primary" href="https://wa.link/indnhl">
+                        INICIAR_CONTATO →
+                    </a>
+                    <div class="social-links">
+                        <a href="https://github.com/luan-henrique-consani" target="_blank">GITHUB</a>
+                        <a href="https://www.linkedin.com/in/luan-henrique-consani-coelho-b9b66a219/"
+                            target="_blank">LINKEDIN</a>
+                        <a href="https://instagram.com/luanconsani28" target="_blank">INSTAGRAM</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <span class="footer-copy">©2026 L_CONSANI // OPERADOR: WEB_DEV</span>
+        <div class="footer-links">
+            <a href="https://github.com/luan-henrique-consani" target="_blank">GITHUB</a>
+            <a href="https://www.linkedin.com/in/luan-henrique-consani-coelho-b9b66a219/" target="_blank">LINKEDIN</a>
+            <a href="https://instagram.com/luanconsani28" target="_blank">INSTAGRAM</a>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
